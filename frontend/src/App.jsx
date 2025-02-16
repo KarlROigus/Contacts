@@ -6,29 +6,6 @@ import ContactTypes from "./pages/ContactTypes";
 import { Route, Routes } from 'react-router-dom';
 
 
-// const App = () => {
-//   const [data, setData] = useState([]);
-
-//   useEffect(() => {
-    
-//     fetch(`${process.env.REACT_APP_API_URL}/persons`)
-//       .then(res => res.json())
-//       .then(data => setData(data))
-//       .catch(error => console.log('Error fetching data: ', error));
-//   }, []);
-  
-//   return (
-//     <div>
-//       <h1>Contacts</h1>
-//       <ul>
-//         {data.map(person => (
-//           <li key={person.id}>{person.personname}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
 function App() {
 
 

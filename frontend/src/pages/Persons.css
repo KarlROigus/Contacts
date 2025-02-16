@@ -1,0 +1,79 @@
+/* Container for the entire persons page */
+.persons-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the cards */
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Auto-layout for responsive design */
+    gap: 20px; /* Spacing between cards */
+    padding: 20px;
+  }
+  
+  /* Styling for individual person cards */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Card hover effect for a nice interaction */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Slightly bigger shadow on hover */
+  }
+  
+  /* Card title */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional paragraph styling */
+  .card p {
+    color: #666;
+    font-size: 1rem;
+  }
+
+  .persons-container {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between; /* Space between the title and button */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 20px;
+    margin-left: 17px;
+  }
+
+  .add-person-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-right: 17px;
+    background-color: lightslategray; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-person-btn:hover {
+    background-color: #5a5a5a; /* Darker green on hover */
+  }
+  
+  
